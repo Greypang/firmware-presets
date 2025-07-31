@@ -1,4 +1,4 @@
-#$ TITLE: Geprc Cinlog30V3O4 Cinlog30V3HD
+#$ TITLE:GEPRC Cinlog30V3 HD O4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: OFFICIAL
@@ -8,25 +8,23 @@
 #$ PARSER: MARKED
 #$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
 
-#$ DESCRIPTION: <a href="https://geprc.com"><img src 添加LOGO 设置连接/Logo-Cropped192.svg" width="220px" style="margin-left: auto; margin-right: auto; display: block;"/></a>
+#$ DESCRIPTION: <div align="center"><a href="https://geprc.com"><img src="https://geprc.com/wp-content/uploads/2024/06/geprc-logo.png" alt="GEPRC" width="50%"/></a></div>
 #$ DESCRIPTION:
 #$ DESCRIPTION: <br>
 #$ DESCRIPTION:
 #$ DESCRIPTION: Cinelog30V3 HD WTF
 #$ DESCRIPTION:  
-#$ DESCRIPTION: Please choose the preset that matches your product model .
+#$ DESCRIPTION: Please choose the preset that matches your product model .<br>
 #$ DESCRIPTION: 建议用户根据自己的产品型号自主选择对应的预设。
 #$ DESCRIPTION:  
-#$ DESCRIPTION: This preset is optimized for factory motors, ESCs, and flight controllers.
+#$ DESCRIPTION: This preset is optimized for factory motors, ESCs, and flight controllers.<br>
 #$ DESCRIPTION: 本预设适配原厂配置的电机、电调及飞控。
 #$ DESCRIPTION:  
-#$ DESCRIPTION: For non-factory or customized setups, use with caution or avoid applying directly.
+#$ DESCRIPTION: For non-factory or customized setups, use with caution or avoid applying directly.<br>
 #$ DESCRIPTION: 非出厂配置或自定义飞控、电调、动力系统建议谨慎使用或避免直接应用。
 #$ DESCRIPTION: 
 #$ DESCRIPTION: <br>
-#$ DESCRIPTION:
-#$ DESCRIPTION: Enjoy!
-#$ DESCRIPTION:
+#$ DESCRIPTION: Fly safe and have fun!<br>
 #$ DESCRIPTION: <br>
 #$ DESCRIPTION:
 #$ DESCRIPTION: Support, feedback and chat:
@@ -34,12 +32,8 @@
 #$ DESCRIPTION: <br>
 #$ DESCRIPTION:
 #$ DESCRIPTION:*[FACEBOOK SUPPORT/FEEDBACK](https://www.facebook.com/geprc)
-//facerbook 链接
-#$ DESCRIPTION:
-#$ DESCRIPTION: <br>
 #$ DESCRIPTION:
 #$ DESCRIPTION:*[DISCORD SUPPORT/FEEDBACK](https://discord.gg/5J88MkGMBq) 
-//DISCODE链接
 #$ DESCRIPTION:
 #$ DESCRIPTION: <br>
 #$ DESCRIPTION: 
@@ -97,6 +91,7 @@ set osd_camera_frame_pos = 142
 set osd_stat_bitmask = 14124
 
 #$ OPTION END
+
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN:Filters  滤波
@@ -137,6 +132,7 @@ set rpm_filter_min_hz = 100
 set rpm_filter_fade_range_hz = 50
 set rpm_filter_lpf_hz = 150
 #$ OPTION END
+
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN:Filters PID  RATE  
@@ -281,6 +277,7 @@ set roll_rate_limit = 1998
 set pitch_rate_limit = 1998
 set yaw_rate_limit = 1998
 #$ OPTION END
+
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: Choose RC Link
