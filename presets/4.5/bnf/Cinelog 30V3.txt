@@ -18,19 +18,11 @@
 #$ DESCRIPTION: 建议用户根据自己的产品型号自主选择对应的预设。
 #$ DESCRIPTION:  
 #$ DESCRIPTION: This preset is optimized for factory motors, ESCs, and flight controllers.<br>
-#$ DESCRIPTION: 本预设适配原厂配置的电机、电调及飞控。
+#$ DESCRIPTION: 本预设适配原厂配置的电机、电调及飞控。 <br>
 #$ DESCRIPTION:  
-#$ DESCRIPTION: For non-factory or customized setups, use with caution or avoid applying directly.<br>
-#$ DESCRIPTION: 非出厂配置或自定义飞控、电调、动力系统建议谨慎使用或避免直接应用。
-#$ DESCRIPTION: 
-#$ DESCRIPTION: <br>
 #$ DESCRIPTION: Fly safe and have fun!<br>
 #$ DESCRIPTION: <br>
-#$ DESCRIPTION:
-#$ DESCRIPTION: Support, feedback and chat:
-#$ DESCRIPTION:
-#$ DESCRIPTION: <br>
-#$ DESCRIPTION:
+#$ DESCRIPTION: Support, feedback and chat:<br>
 #$ DESCRIPTION:*[FACEBOOK SUPPORT/FEEDBACK](https://www.facebook.com/geprc)
 #$ DESCRIPTION:
 #$ DESCRIPTION:*[DISCORD SUPPORT/FEEDBACK](https://discord.gg/5J88MkGMBq) 
