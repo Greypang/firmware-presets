@@ -21,7 +21,6 @@
 #$ DESCRIPTION: 本预设适配原厂配置的电机、电调及飞控。 <br>
 #$ DESCRIPTION:  
 #$ DESCRIPTION: Fly safe and have fun!<br>
-#$ DESCRIPTION: <br>
 #$ DESCRIPTION: Support, feedback and chat:<br>
 #$ DESCRIPTION:*[FACEBOOK SUPPORT/FEEDBACK](https://www.facebook.com/geprc)
 #$ DESCRIPTION:
