@@ -84,6 +84,15 @@ set osd_stat_bitmask = 14124
 
 #$ OPTION END
 
+#$ OPTION BEGIN (CHECKED): MASTER LED light strip LED灯条
+
+resource SERIAL_TX 5 none
+resource PINIO 2 C12
+set pinio_config = 129,1,1,1
+set pinio_box = 39,40,41,42
+
+#$ OPTION END
+
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN:Filters  滤波
