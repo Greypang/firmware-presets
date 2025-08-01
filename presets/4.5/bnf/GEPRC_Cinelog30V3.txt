@@ -140,6 +140,44 @@ set rpm_filter_fade_range_hz = 50
 set rpm_filter_lpf_hz = 150
 #$ OPTION END
 
+#$ OPTION BEGIN (CHECKED): Cinelog30V3 1404 1000KV1
+set gyro_hardware_lpf = NORMAL
+set gyro_lpf1_type = PT1
+set gyro_lpf1_static_hz = 375
+set gyro_lpf2_type = PT1
+set gyro_lpf2_static_hz = 750
+set gyro_notch1_hz = 104
+set gyro_notch1_cutoff = 97
+set gyro_notch2_hz = 88
+set gyro_notch2_cutoff = 81
+set gyro_calib_duration = 125
+set gyro_calib_noise_limit = 48
+set gyro_offset_yaw = 0
+set gyro_overflow_detect = ALL
+set yaw_spin_recovery = AUTO
+set yaw_spin_threshold = 1950
+set gyro_to_use = FIRST
+set dyn_notch_count = 1
+set dyn_notch_q = 600
+set dyn_notch_min_hz = 100
+set dyn_notch_max_hz = 400
+set gyro_lpf1_dyn_min_hz = 375
+set gyro_lpf1_dyn_max_hz = 750
+set gyro_lpf1_dyn_expo = 5
+set gyro_filter_debug_axis = ROLL
+set acc_hardware = AUTO
+set acc_lpf_hz = 25
+set acc_trim_pitch = 0
+set acc_trim_roll = 0
+set acc_calibration = -32,-9,-26,1
+set rpm_filter_harmonics = 3
+set rpm_filter_weights = 100,0,80
+set rpm_filter_q = 500
+set rpm_filter_min_hz = 100
+set rpm_filter_fade_range_hz = 50
+set rpm_filter_lpf_hz = 150
+#$ OPTION END
+
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN:Filters PID  RATE  
